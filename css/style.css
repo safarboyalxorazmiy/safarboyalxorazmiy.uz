@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+header {
+    max-width: calc(100% - 100px);
+}
+
+header nav {
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: flex-start;
+    padding: 42px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    min-width: 50%;
+    gap: 40px;
+}
+
+header nav ul li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+
+header nav .btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 50%;
+}
+
+header nav button {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 24px;
+    background-color: #fff;
+    border: 3px solid #808080;
+}
+
+header main {
+    padding: 100px 200px;
+}
+
+header main h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 52px;
+    width: 602px;
+}
+
+header main ul {
+    margin-top: 14px;
+    list-style-type: none;
+    display: flex;
+    gap: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+div.buttons {
+    margin-top: 60px;
+    display: flex;
+}
+
+div.buttons button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+div.buttons button:hover {
+    cursor: pointer;
+}
+
+div.buttons button:nth-child(1) {
+    padding: 12px 30px;
+    border: 3px solid #000000;
+    background-color: #161513;
+    color: #FFFFFF;
+}
+
+div.buttons button:nth-child(2) {
+    padding: 12px 34px;
+    border: 3px solid #000000;
+    background-color: #FFFFFF;
+}
+
+marquee {
+    transform: rotate(-3.5deg);
+    background-color: #161513;
+    padding: 40px 80px;
+    width: 120%;
+    margin-left: -10%;
+}
+
+marquee ul {
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+}
+
+marquee ul li {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
