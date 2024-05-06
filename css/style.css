@@ -74,29 +74,29 @@ header main ul {
     font-weight: 700;
 }
 
-div.buttons {
+a.buttons {
     margin-top: 60px;
     display: flex;
 }
 
-div.buttons button {
+a.buttons button {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 18px;
 }
 
-div.buttons button:hover {
+a.buttons button:hover {
     cursor: pointer;
 }
 
-div.buttons button:nth-child(1) {
+a.buttons button:nth-child(1) {
     padding: 12px 30px;
     border: 3px solid #000000;
     background-color: #161513;
     color: #FFFFFF;
 }
 
-div.buttons button:nth-child(2) {
+a.buttons button:nth-child(2) {
     padding: 12px 34px;
     border: 3px solid #000000;
     background-color: #FFFFFF;
@@ -121,4 +121,9 @@ marquee ul li {
     font-size: 20px;
     font-weight: 700;
     color: #FFFFFF;
+}
+
+
+a {
+    text-decoration: none;
 }
